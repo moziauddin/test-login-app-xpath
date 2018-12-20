@@ -15,13 +15,13 @@ public class MyFirstTest {
         String passWord1 = "admin";
 
         // Use Chrome: Uncomment below two lines
-        System.setProperty("webdriver.chrome.driver", "C:\\devel\\testing\\browsers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         //driver.navigate().to("https://google.com");
         //Assert.assertEquals("Google",driver.getTitle());
 
         // Use Firefox
-        //System.setProperty("webdriver.gecko.driver", "C:\\devel\\testing\\browsers\\geckodriver.exe");
+        //System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
         //WebDriver driver = new FirefoxDriver();
         driver.navigate().to(url);
         Assert.assertEquals("Login",driver.getTitle());

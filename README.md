@@ -6,4 +6,7 @@
 |Chromedriver|2.40|
 |JUnit |4.2|
 
-1. You will need to add the above versions of geckodriver and chromedriver to your PATH
+## Usage
+
+1. Just clone the repository and Run the project in IntelliJ or Eclipse
+1. If you are using *nix OS, then remove ".exe" from driver path
